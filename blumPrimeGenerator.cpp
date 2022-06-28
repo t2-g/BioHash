@@ -11,7 +11,7 @@ int main()
 {
     srand(time(NULL));
     int d,k=2,p[max/3],res;
-    ll c=0;a,p2[2],product,seed,seed1,res1;
+    ll c=0,a,p2[2],product,seed,seed1,res1;
 
     prime[0]=prime[1]=1;
 
@@ -41,6 +41,7 @@ int main()
         cout<<p1[i]<<" ";
     }
 
+    int i=0;
     while(k)
     {
         a=(rand())%c;
